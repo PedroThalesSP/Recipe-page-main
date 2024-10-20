@@ -25,3 +25,20 @@ div {
 h2 {
     color: rgb(136, 74, 58);
 }
+
+.button_color_one ::marker {
+    color: rgb(121, 69, 91);
+  }
+  
+  .Button_color_two ::marker {
+    color: rgb(136, 74, 58);
+  }
+
+.gramas{
+    color: rgb(136, 74, 58);
+}
+
+.line {
+    width: 700px;
+    border: 1px solid  rgb(240, 240, 240)
+}
