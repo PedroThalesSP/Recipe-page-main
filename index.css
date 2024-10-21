@@ -1,13 +1,20 @@
 body {
     background-color:rgb(243, 229, 216)
+
+}
+
+.background_parent {
+    display: flex;
 }
 
 .background_body {
-    background-color: white;
     display: flex;
+    background-color: white;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    border-radius: 30px;
+    width: 37%;
+    margin: auto;
 }
 
 div {
@@ -16,6 +23,7 @@ div {
 
 .second_part {
     background-color: rgb(255, 247, 252);
+    border-radius: 20px;
 }
 
 .title_preparation {
@@ -41,4 +49,8 @@ h2 {
 .line {
     width: 700px;
     border: 1px solid  rgb(240, 240, 240)
+}
+
+.image {
+    border-radius: 25px;
 }
